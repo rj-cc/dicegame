@@ -1,0 +1,65 @@
+body {
+  background-color: #232020;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #ff7315;
+  font-size: 90px;
+  font-family: "Pacifico", cursive;
+}
+
+.dice-container {
+  display: flex;
+  justify-content: center;
+}
+
+#dice1 {
+  background-image: url("images/dice1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  padding: 20px 50px;
+}
+
+#dice2 {
+  background-image: url("images/dice2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  padding: 20px 50px;
+}
+
+.player-container {
+  display: flex;
+  justify-content: center;
+}
+
+.player {
+  display: flex;
+  color: #f4f4f4;
+  font-size: x-large;
+  font-family: "Audiowide", cursive;
+  justify-content: space-between;
+  padding: 10px 90px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-items {
+  color: #f4f4f4;
+  font-family: "Audiowide", cursive;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
